@@ -1,6 +1,8 @@
 {
   "name": "BackAppTest",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular",
   "id": "5adef01e"
 }

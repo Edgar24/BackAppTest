@@ -6,4 +6,10 @@
   </ion-toolbar>
 </ion-header>
 
-<ion-content></ion-content>
+<ion-content>
+  <ion-button (click)="captureAudio()">Capture Audio</ion-button>
+  <ion-button (click)="captureVideo()">Capture Video</ion-button>
+
+  <video controls autoplay #myvideo></video>
+
+</ion-content>
